@@ -30,4 +30,6 @@ public class SiteJdi {
     @UI(".sidebar-menu span") public static Menu leftMenu;
     @UI(".sidebar-menu li") public static JList<MenuItem> menu;
 
+    @UI("#name") public static UIElement login;
+    @UI("#password") public static UIElement password;
 }
